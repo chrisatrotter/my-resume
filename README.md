@@ -6,3 +6,7 @@
 The resume template and theme is designed by github user [`sprogen`](https://github.com/sproogen/modern-resume-theme). Thank you for an amazing design!
 
 [Check out my resume](https://chrisatrotter.github.io/my-resume/)
+
+## Docker
+
+If you have docker installed you can simply run `docker-compose up`to launch the site in a container, it will then be hosted at`http://localhost:4000`
