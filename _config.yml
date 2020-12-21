@@ -116,6 +116,10 @@ content:
         title: Sculptures in Concurrency
         caption: Dec 2018
         sub_title: Computer Science - Concurrency
+        additional_links:
+          - title:  Sculptures in Concurrency
+            icon: fab fa-globe
+            url: https://arxiv.org/pdf/1812.02008.pdf
         quote: >
           Uli Fahrenberg, Christian Johansen, Christopher Trotter and Krzysztof Ziemianski
         description: | # this will include new lines to allow paragraphs
