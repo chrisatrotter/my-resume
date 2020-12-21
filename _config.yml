@@ -55,39 +55,38 @@ about_content: | # this will include new lines to allow paragraphs
   I am focused on putting my passion and skills to good use by supporting organizations and projects with their difficult engineering problems. 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+  #- title: Projects # Title for the section
+  #  layout: list # Type of content section (list/text)
+  #  content:
+  #    - layout: top-middle
+  #      title: PUBG GraphQL server
+  #      link: github.com/megacat-studio/pubg-graphql-api
+  #      # link_text: Project Website
+  #      additional_links:
+  #        - title:  megacat-studio/pubg-graphql-api
+  #          icon: fab fa-github
+  #          url: github.com/megacat-studio/pubg-graphql-api
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  #      quote: >
+  #        This is probably one of the greatest API's ever created, if you don't agree you're probably wrong.
+  #      description: | # this will include new lines to allow paragraphs
+  #        I started this project as a way if learning <mark>GraphQL</mark> and <mark>Typescript</mark> it has since grown into a fully fledged API. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Sparebank 1
+        link: sparebank1.no
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: IT Consultant
+        caption: November 2016 - Jan 2019
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          A Norwegian alliance of independent banks that helps their customers simplify their everyday finance.
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+          Every bank needs transactions to be properly administered and Sparebank1 is no exception. Managing high volume transactions is hard and I played my part by monitoring to ensure safe transactions for our customers.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -114,13 +113,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: University of Oslo
-        caption: 2013 - 2016
-        sub_title: BSc Computer Science
+        title: Sculptures in Concurrency
+        caption: Dec 2018
+        sub_title: Computer Science - Concurrency
         quote: >
-          Established in 1811, UiO is the oldest higher education institution in Norway, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in the Nordic countries.
+          Uli Fahrenberg - Ecole Polytechnique, Palaiseau, France
+          Christian Johansen - Institute of Informatics, University of Oslo, Norway
+          Christopher Trotter - Institute of Informatics, University of Oslo, Norway
+          Krzysztof Ziemianski - Institute of Mathematics, University of Warsaw
         description: | # this will include new lines to allow paragraphs
-          During my time at UiO I learnt most of my key skills that I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          We give a formalization of Pratt’s intuitive sculpting process for higherdimensional automata (HDA). Based on this, we show that sculptures, Pratt’s Chu spaces, and Johansen’s ST-structures are in close correspondence. We also develop an algorithm to decide whether a HDA can be sculpted and use this to show that some natural acyclic HDA are not sculptures. We believe that our result shed new light on the intuitions behind sculpting as a method of modeling concurrent behavior, showing the precise reaches of its expressiveness. We also show that there are sculptures whose unfoldings cannot be sculpted, and that sculptures are the same as Euclidean cubical complexes. This exposes a close connection between geometric and combinatorial models for concurrency which may be of use for both areas.
           
   - title: A Little More About Me
     layout: text
@@ -128,6 +130,7 @@ content:
       Alongside my interests in computer science some of my other interests and hobbies are:
       - Calisthenics
       - Gaming
+      - Bartender
       - Barista
       - Mentoring
 
