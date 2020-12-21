@@ -9,7 +9,7 @@ version: 2
 name: Christopher A. Trotter
 title: Software Engineer
 email: chrisatrotters@gmail.com
-website: https://chrisatrotter.github.io/my-resume/
+website: chrisatrotter.github.io/my-resume
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -25,15 +25,15 @@ instagram_username: chrisatrotter
 linkedin_username: chrisatrotters
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: chrisatrotters
+# youtube_username: chrisatrotters
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Christpher and I'm a passionate software engineer with interests in event-driven architecture, functional programming, stream processing and concurrency theory.
+  Hi, my name's Christopher and I'm a passionate software engineer with interests in event-driven architecture, functional programming, stream processing and concurrency theory.
   I recently graduated with a master in computer science, where the focus of the study was to interpret concurrency as higher-dimensional objects using formal methods such as category theory, formal verification, model checking, and algebraic topology.
   As part of the journey, I learned fundamental concepts of concurrency theory, programming languages, event-based vs. state-based models and application of category theory within a functional programming paradigm.
   
@@ -78,15 +78,139 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Domstoladministrasjonen
+        link: domstol.no
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: Apr 2020 - Present
+        quote: >
+          The Norwegian Courts Administration's (NCA's) purpose is to enable the courts to deal with challenges presented before them. This is done for instance by providing the support necessary for judges and staff to carry out their roles and to deliver justice efficiently and effectively.
+        description: | # this will include new lines to allow paragraphs
+          The NCA is responsible for handling of the will or testament of a person (testator) that expresses their wishes as to how their property (estate) is to be distributed after their death and as to which person (executor) is to manage the property until its final distribution.
+          I played my part in developing an integration between NCA and National Population Register (NPR) to partly automate the workflow for handling information about the deceased and their family relations.
+
+          This role covered tasks such as:
+          
+          - Developing an integration between NCA and NPR with machine-to-machine communication (maskinporten).
+          - Responsible for ensuring the deployment of microservices from local development to production. 
+          - Assist in making decisions around the architecture and workflow of the development process.
+          - Assist in creating estimations of the work needed in the project.
+          - Design the REST API's based on occuring need from users.
+          - Creating a mockserver that replicates testdata.
+          - Assist in coordinating the project.
+          - Been involved in the decision making process when considering security.
+          - Provide Code review of frontend projects written in Vuejs 2 and Vuex.
+          - Provide Code review of microservices written in Kotlin and Spring Boot.
+
+          This role covered technologies and methods such as:
+
+          Test-driven development (TDD) - Kotlin - Java 11 - WildFly Application Server - Apache ActiveMQ - AMQP - Spring Boot - Jenkins - Openshift - Docker - REST - Agile development - Vue.js - Grafana - Prometheus - JSON - XML - Typescript - Keycloak - OAuth2 - OpenAPI/Swagger - JWT - GitOps - Java Swing
+
+      - layout: left
+        title: Mattilsynet
+        link: mattilsynet.no
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: Jan 2020 - Apr 2020
+        quote: >
+          The Norwegian Food Safety Authority (NFSA) is a national governmental body, whose aim is to ensure that food and drinking water are as safe as possible for consumers and to contribute to a high level of plant, fish and animal health.
+        description: | # this will include new lines to allow paragraphs
+          The Norwegian Food Safety Authority (NFSA) required new solutions that are high user-friendly for their inspectors to use while monitoring animals to ensure that the animals are both safe and healthy.
+
+          This role covered tasks such as:
+          
+          - Developing API's with Kotlin and Spring Boot that interact with the user-friendly frontend React applications.
+
+          This role covered technologies and methods such as:
+
+          Kotlin - Spring Boot - RabbitMQ - Docker - Kubernetes - Gradle - Continuous deployment - Java - Intellij IDEA - Scrum - Jenkins - Elastic search - Kibana - Prometheus - Domain-driven Design (DDD) - Keycloak - Oauth2
+
+      - layout: left
+        title: Bærum Kommune - ITB
+        link: baerum.kommune.no
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: May 2019 - Dec 2019
+        quote: >
+          Bærum kommune is a norwegian municipality that provides services to support people who live within the municipality.
+        description: | # this will include new lines to allow paragraphs
+          As part of the project, I was involved in developing an integration plattform for all digital services that the municipality provides for the residents of the municipality. I primarily worked with DevOps.
+          
+          This role covered tasks such as:
+          
+          - Implementing a development, test and production environment by using Terraform in Azure.
+          - Be involved in the decision making process of the architecture and workflow in Azure.
+          - Implementing Azure pipelines (continuous integration and continuous delivery) to automate the development workflow process.
+          - Configuration management of the development, test and production environments by using Ansible.
+          - Developing an integration solution by using Java Spring Boot.
+          - Fetching of information from Oracle EBS database by using SQL.
+          - Developing an API Gateway by using Kong and Nginx.
+
+          This role covered technologies and methods such as:
+
+          Microsoft Azure - HashiCorp Terraform - Azure Devops - Event Driven Architecture - CI/CD - Spring Boot - SQL - XML - Java - JSON - Nginx - Ansible - Azure ARM
+
+      - layout: left
+        title: Bærum Kommune - FDD
+        link: baerum.kommune.no
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: May 2019 - Sep 2019
+        quote: >
+          Bærum kommune is a norwegian municipality that provides services to support people who live within the municipality.
+        description: | # this will include new lines to allow paragraphs
+          As part of the project I was involved in documenting the proprietary developed invoice system of the municipality. I was also involved in developing an integration solution between the invoice system and an external invoice distribution channel. The integration solution has significantly reduced time and cost by partially automating the process of sending out invoices.
+          
+          This role covered tasks such as:
+          
+          - Developing an integration solution by using C# in the .NET Framework.
+          - Developing solutions to handle XML formatet invoices.
+          - Implementing an EHF 3.0 Validator to be used in testing the validity of invoices.
+          - Fetching invoice information from databases by using SQL.
+
+          This role covered technologies and methods such as:
+
+          C# - XML - SQL - EHF 3.0
+
+      - layout: left
+        title: Safe Video Communication
+        link: seequre.no
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: Jan 2019 - Apr 2019
+        quote: >
+          Seequre is a video conference and chat solutions that provides SMB markets with a secure way to communicate.
+        description: | # this will include new lines to allow paragraphs
+          Every small to medium business (SMB) should provide both their customers and employees a secure way to communicate and Seequre is just such a solution. I played my part by developing application solutions and writing documentation on new technology for a secure video conference and chat solution.
+
+          This role covered tasks such as:
+          
+          - Implementing a proof of concept (POC) which showcased the core functionality of the solution in Flutter.
+          - Write a white paper draft of the solution.
+          - Been involved in the decision making process when regarding security.
+          - Responsible for system and acceptance testing.
+          - Responsible for maintaining the existing iOS and Android applications.
+
+          This role covered technologies and methods such as:
+
+          Reactive development - mobile application development - iOS and Android - Flutter - ASP.NET - RxJava - RxDart - Asana - RxVMS - WebRTC - SignalR - Agile development - Project management
+      
+      - layout: left
         title: Sparebank 1
         link: sparebank1.no
         # link_text: boringcompany.com
         sub_title: IT Consultant
-        caption: November 2016 - Jan 2019
+        caption: Nov 2016 - Jan 2019
         quote: >
           A Norwegian alliance of independent banks that helps their customers simplify their everyday finance.
         description: | # this will include new lines to allow paragraphs
           Every bank needs transactions to be properly administered and Sparebank1 is no exception. Managing high volume transactions is hard and I played my part by handling and monitoring to ensure safe transactions for our customers.
+
+          This role covered technologies and methods such as:
+
+          Operations & Monitoring - Incident Management - Splunk - Zabbix - ITIL - Confluence/Jira
+
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -94,6 +218,13 @@ content:
         title: University of Oslo
         caption: 2016 - 2018
         sub_title: MSc Computer Science
+        additional_links:
+          - title:  University website for Master thesis
+            icon: fas fa-globe
+            url: http://urn.nb.no/URN:NBN:no-69969
+          - title:  Github page for Master thesis
+            icon: fab fa-github
+            url: https://github.com/chrisatrotter/INF5960-Higher-Dimensional-Automata
         quote: >
           Established in 1811, UiO is the oldest higher education institution in Norway, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in the Nordic countries.
         description: | # this will include new lines to allow paragraphs
@@ -103,10 +234,16 @@ content:
         title: University of Oslo
         caption: 2013 - 2016
         sub_title: BSc Computer Science
+        additional_links:
+          - title:  University of Oslo website
+            icon: fas fa-globe
+            url: https://www.mn.uio.no/ifi/
         quote: >
           Established in 1811, UiO is the oldest higher education institution in Norway, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in the Nordic countries.
         description: | # this will include new lines to allow paragraphs
-          During my time at UiO I learnt most of my key skills that I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          The program includes theory and methods for programming both individual machines and machines in networks. One learns to create systems that are reliable, flexible, user-friendly and efficient. Practical solutions to problems are part of the education. One gains insight into the technology behind the computers, how the machine can be used to solve tasks and what challenges the information technology society gives us.
+          
+          IT is more than a tool for other subjects. As an computer scientist, we are an active driving force in social development. One works with basic issues that provide new insights and opportunities throughout society, by helping creating new applications.
 
   
   - title: Publication # Title for the section
@@ -118,13 +255,31 @@ content:
         sub_title: Computer Science - Concurrency
         additional_links:
           - title:  Sculptures in Concurrency
-            icon: fab fa-globe
+            icon: fas fa-globe
             url: https://arxiv.org/pdf/1812.02008.pdf
         quote: >
           Uli Fahrenberg, Christian Johansen, Christopher Trotter and Krzysztof Ziemianski
         description: | # this will include new lines to allow paragraphs
           We give a formalization of Pratt’s intuitive sculpting process for higherdimensional automata (HDA). Based on this, we show that sculptures, Pratt’s Chu spaces, and Johansen’s ST-structures are in close correspondence. We also develop an algorithm to decide whether a HDA can be sculpted and use this to show that some natural acyclic HDA are not sculptures. We believe that our result shed new light on the intuitions behind sculpting as a method of modeling concurrent behavior, showing the precise reaches of its expressiveness. We also show that there are sculptures whose unfoldings cannot be sculpted, and that sculptures are the same as Euclidean cubical complexes. This exposes a close connection between geometric and combinatorial models for concurrency which may be of use for both areas.
+  
+  - title: Volunteer Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: NDC Oslo
+        caption: Jun 2015 - Jun 2018
+        sub_title: Crew member
+        additional_links:
+          - title:  NDC Oslo
+            icon: fas fa-globe
+            url: https://ndcoslo.com/
+        quote: >
+          Since its start-up in Oslo 2008, the Norwegian Developers Conference (NDC) quickly became one of Europe`s largest conferences for .NET & Agile development. Today NDC Conferences are 5-day events with 2 days of pre-conference workshops and 3 days of conference sessions.
+        description: | # this will include new lines to allow paragraphs
+          The conference covered topics such as:
           
+          NET Framework - Agile - C++ - Cloud - Database - Design - Devops - Embedded - Front-End Framework - Fun - Functional Programming - Gadgets - Internet of Things - Javascript - Microsoft - Misc Languages - Mobile - People - Programming Languages - Security - Techniques - Testing - Tools - UX – Web and more.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
