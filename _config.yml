@@ -86,7 +86,7 @@ content:
         quote: >
           A Norwegian alliance of independent banks that helps their customers simplify their everyday finance.
         description: | # this will include new lines to allow paragraphs
-          Every bank needs transactions to be properly administered and Sparebank1 is no exception. Managing high volume transactions is hard and I played my part by monitoring to ensure safe transactions for our customers.
+          Every bank needs transactions to be properly administered and Sparebank1 is no exception. Managing high volume transactions is hard and I played my part by handling and monitoring to ensure safe transactions for our customers.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -117,10 +117,7 @@ content:
         caption: Dec 2018
         sub_title: Computer Science - Concurrency
         quote: >
-          - Uli Fahrenberg - Ecole Polytechnique, Palaiseau, France
-          - Christian Johansen - Institute of Informatics, University of Oslo, Norway
-          - Christopher Trotter - Institute of Informatics, University of Oslo, Norway
-          - Krzysztof Ziemianski - Institute of Mathematics, University of Warsaw
+          Uli Fahrenberg, Christian Johansen, Christopher Trotter and Krzysztof Ziemianski
         description: | # this will include new lines to allow paragraphs
           We give a formalization of Pratt’s intuitive sculpting process for higherdimensional automata (HDA). Based on this, we show that sculptures, Pratt’s Chu spaces, and Johansen’s ST-structures are in close correspondence. We also develop an algorithm to decide whether a HDA can be sculpted and use this to show that some natural acyclic HDA are not sculptures. We believe that our result shed new light on the intuitions behind sculpting as a method of modeling concurrent behavior, showing the precise reaches of its expressiveness. We also show that there are sculptures whose unfoldings cannot be sculpted, and that sculptures are the same as Euclidean cubical complexes. This exposes a close connection between geometric and combinatorial models for concurrency which may be of use for both areas.
           
@@ -134,8 +131,8 @@ content:
       - Barista
       - Mentoring
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
