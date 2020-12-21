@@ -86,7 +86,7 @@ content:
         quote: >
           The Norwegian Courts Administration's (NCA's) purpose is to enable the courts to deal with challenges presented before them. This is done for instance by providing the support necessary for judges and staff to carry out their roles and to deliver justice efficiently and effectively.
         description: | # this will include new lines to allow paragraphs
-          The NCA is responsible for handling of the will or testament of a person (testator) that expresses their wishes as to how their property (estate) is to be distributed after their death and as to which person (executor) is to manage the property until its final distribution.
+          The Norwegian Courts Administration (NCA) is responsible for handling the will or testament of a person (testator) that expresses their wishes as to how their property (estate) is to be distributed after their death and as to which person (executor) is to manage the property until its final distribution.
           I played my part in developing an integration between NCA and National Population Register (NPR) to partly automate the workflow for handling information about the deceased and their family relations.
 
           This role covered tasks such as:
@@ -95,7 +95,7 @@ content:
           - Responsible for ensuring the deployment of microservices from local development to production. 
           - Assist in making decisions around the architecture and workflow of the development process.
           - Assist in creating estimations of the work needed in the project.
-          - Design the REST API's based on occuring need from users.
+          - Design the REST API's based on occuring needs from users.
           - Creating a mockserver that replicates testdata.
           - Assist in coordinating the project.
           - Been involved in the decision making process when considering security.
