@@ -91,7 +91,6 @@ content:
 
           This role covered tasks such as:
           
-          - Developing an integration between NCA and NPR with machine-to-machine communication (maskinporten).
           - Responsible for ensuring the deployment of microservices from local development to production. 
           - Assist in making decisions around the architecture and workflow of the development process.
           - Assist in creating estimations of the work needed in the project.
@@ -99,12 +98,12 @@ content:
           - Creating a mockserver that replicates testdata.
           - Assist in coordinating the project.
           - Been involved in the decision making process when considering security.
-          - Provide Code review of frontend projects written in Vuejs 2 and Vuex.
-          - Provide Code review of microservices written in Kotlin and Spring Boot.
+          - Provide Code review of frontend projects.
+          - Provide Code review of microservices.
 
-          This role covered technologies and methods such as:
+#          This role covered technologies and methods such as:
 
-          Test-driven development (TDD) - Kotlin - Java 11 - WildFly Application Server - Apache ActiveMQ - AMQP - Spring Boot - Jenkins - Openshift - Docker - REST - Agile development - Vue.js - Grafana - Prometheus - JSON - XML - Typescript - Keycloak - OAuth2 - OpenAPI/Swagger - JWT - GitOps - Java Swing
+ #         Test-driven development (TDD) - Kotlin - Java 11 - WildFly Application Server - Apache ActiveMQ - AMQP - Spring Boot - Jenkins - Openshift - Docker - REST - Agile development - Vue.js - Grafana - Prometheus - JSON - XML - Typescript - Keycloak - OAuth2 - OpenAPI/Swagger - JWT - GitOps - Java Swing
 
       - layout: left
         title: Mattilsynet
@@ -119,11 +118,11 @@ content:
 
           This role covered tasks such as:
           
-          - Developing API's with Kotlin and Spring Boot that interact with the user-friendly frontend React applications.
+          - Developing API's that interact with the user-friendly frontend React applications.
 
-          This role covered technologies and methods such as:
+#          This role covered technologies and methods such as:
 
-          Kotlin - Spring Boot - RabbitMQ - Docker - Kubernetes - Gradle - Continuous deployment - Java - Intellij IDEA - Scrum - Jenkins - Elastic search - Kibana - Prometheus - Domain-driven Design (DDD) - Keycloak - Oauth2
+#          Kotlin - Spring Boot - RabbitMQ - Docker - Kubernetes - Gradle - Continuous deployment - Java - Intellij IDEA - Scrum - Jenkins - Elastic search - Kibana - Prometheus - Domain-driven Design (DDD) - Keycloak - Oauth2
 
       - layout: left
         title: Bærum Kommune - ITB
