@@ -5,7 +5,7 @@
 
 The resume template and theme is designed by github user [`sprogen`](https://github.com/sproogen/modern-resume-theme). Thank you for an amazing design!
 
-[Check out my resume](https://chrisatrotter.github.io/my-resume/)
+[Check out my resume](https://resume.chrisatrotter.dev)
 
 ## Docker
 
