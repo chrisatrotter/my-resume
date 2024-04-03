@@ -77,7 +77,7 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top
+      - layout: top-left
         title: Domstoladministrasjonen
         link: domstol.no
         # link_text: boringcompany.com
@@ -105,7 +105,7 @@ content:
 
  #         Test-driven development (TDD) - Kotlin - Java 11 - WildFly Application Server - Apache ActiveMQ - AMQP - Spring Boot - Jenkins - Openshift - Docker - REST - Agile development - Vue.js - Grafana - Prometheus - JSON - XML - Typescript - Keycloak - OAuth2 - OpenAPI/Swagger - JWT - GitOps - Java Swing
 
-      - layout: top
+      - layout: top-left
         title: Mattilsynet
         link: mattilsynet.no
         # link_text: boringcompany.com
@@ -124,7 +124,7 @@ content:
 
 #          Kotlin - Spring Boot - RabbitMQ - Docker - Kubernetes - Gradle - Continuous deployment - Java - Intellij IDEA - Scrum - Jenkins - Elastic search - Kibana - Prometheus - Domain-driven Design (DDD) - Keycloak - Oauth2
 
-      - layout: top
+      - layout: top-left
         title: Bærum Kommune - ITB
         link: baerum.kommune.no
         # link_text: boringcompany.com
@@ -149,7 +149,7 @@ content:
 
           Microsoft Azure - HashiCorp Terraform - Azure Devops - Event Driven Architecture - CI/CD - Spring Boot - SQL - XML - Java - JSON - Nginx - Ansible - Azure ARM
 
-      - layout: top
+      - layout: top-left
         title: Bærum Kommune - FDD
         link: baerum.kommune.no
         # link_text: boringcompany.com
@@ -171,7 +171,7 @@ content:
 
           C# - XML - SQL - EHF 3.0
 
-      - layout: top
+      - layout: top-left
         title: Safe Video Communication
         link: seequre.no
         # link_text: boringcompany.com
@@ -194,7 +194,7 @@ content:
 
           Reactive development - mobile application development - iOS and Android - Flutter - ASP.NET - RxJava - RxDart - Asana - RxVMS - WebRTC - SignalR - Agile development - Project management
       
-      - layout: top
+      - layout: top-left
         title: Sparebank 1
         link: sparebank1.no
         # link_text: boringcompany.com
