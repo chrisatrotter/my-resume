@@ -516,7 +516,7 @@ ul.icons a {
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: center;
+  justify-content: top;
   vertical-align: middle;
 }
 .layout .details p {
