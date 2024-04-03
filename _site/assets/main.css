@@ -516,8 +516,8 @@ ul.icons a {
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: top;
-  vertical-align: middle;
+  justify-content: center;
+  vertical-align: top;
 }
 .layout .details p {
   margin-bottom: 3px;
