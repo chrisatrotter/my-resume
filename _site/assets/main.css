@@ -184,7 +184,7 @@ body {
     margin-top: 20px;
   }
 }
-.header-contianer {
+.header-container {
   margin-top: 50px;
 }
 .header-right {
@@ -475,8 +475,8 @@ ul.icons a {
   color: inherit;
   font-weight: 500;
 }
-@media screen and (max-width: 768px) {
-  .header-contianer div {
+@media screen and (max-width: 767px) {
+  .header-container div {
     text-align: center;
   }
   .header-right p {
@@ -500,16 +500,12 @@ ul.icons a {
   -webkit-box-shadow: inset 0 0 20px #636161;
   box-shadow: inset 0 0 20px #636161;
 }
-.into-text-1 {
-  margin-top: 30px;
-}
-@media only screen and (max-width: 992px) {
-  .into-text-1 {
-    margin-top: 20px;
-  }
-}
 .list-container h3 {
   margin-bottom: 0;
+}
+.border-weak {
+  padding-bottom: 8px;
+  border-bottom: dashed 1px #cccccc;
 }
 .layout {
   margin-top: 3rem;
@@ -517,8 +513,11 @@ ul.icons a {
   flex-direction: row;
 }
 .layout .details {
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  justify-content: top;
+  justify-content: center;
+  vertical-align: middle;
 }
 .layout .details p {
   margin-bottom: 3px;
@@ -529,7 +528,7 @@ ul.icons a {
 .layout .details p b {
   font-weight: 500;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .layout .details {
     text-align: center !important;
   }
@@ -567,11 +566,15 @@ ul.icons a {
 .layout-top-right .details {
   text-align: right;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .layout-left,
   .layout-right {
     flex-direction: column;
   }
+}
+.layout-left .details,
+.layout-right .details {
+  margin-bottom: 2rem;
 }
 .layout-top-middle,
 .layout-top,
@@ -628,4 +631,9 @@ p.quote {
     padding: 0rem 1rem;
     margin-top: 1rem;
   }
+}
+.dark {
+  background-color: #111827;
+  color: #fff;
+  opacity: 1;
 }
